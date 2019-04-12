@@ -20,7 +20,7 @@ public class User implements Serializable {
 	
 	private Long id;
 	private String userName;
-	private String password;
+	private String passWord;
 	private Gender gender;
 	private String nickName;
 	public Long getId() {
@@ -35,17 +35,17 @@ public class User implements Serializable {
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
 	public Gender getGender() {
 		return gender;
 	}
 	public void setGender(Gender gender) {
 		this.gender = gender;
+	}
+	public String getPassWord() {
+		return passWord;
+	}
+	public void setPassWord(String passWord) {
+		this.passWord = passWord;
 	}
 	public String getNickName() {
 		return nickName;
